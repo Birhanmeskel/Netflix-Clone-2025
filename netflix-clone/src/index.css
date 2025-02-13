@@ -12,19 +12,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    background-color: #111;
+body {
+  background-color: #111;
 }
-/* .inter-<uniquifier> {
-  font-family: "Inter", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
-
-/* .lexend-<uniquifier> {
-  font-family: "Lexend", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-} */
