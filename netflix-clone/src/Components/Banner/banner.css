@@ -80,9 +80,12 @@
     
   .banner_title {
     font-size: 2.5rem;
+    font-weight: 300;
   }
 
   .banner_description {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 100;
+
   }
 }
