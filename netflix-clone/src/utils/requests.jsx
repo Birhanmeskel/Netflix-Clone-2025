@@ -16,3 +16,4 @@ const requests = {
 export default requests;
 
 // poster: https://image.tmdb.org/t/p/original/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg
+// https://api.themoviedb.org/3/discover/tv?api_key=b4874ee1c29202cb32b2bb17d9eaaca0&with_networks=213

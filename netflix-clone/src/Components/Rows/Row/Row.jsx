@@ -5,8 +5,8 @@ import movieTrailer from "movie-trailer";
 import YouTube from "react-youtube";
 
 const Row = ({ title, fetchUrl, isLargeRow }) => {
-  const [movies, setMovie] = useState([]);
-  const [trailerUrl, setTrailerUrl] = useState("");
+  const [movies, setMovie] = useState([]); 
+  const [trailerUrl, setTrailerUrl] = useState(""); 
 
   const base_url = "https://image.tmdb.org/t/p/original";
 
@@ -25,15 +25,12 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
 
   const handleClick = (movie) => {
     if (trailerUrl) {
-      setTrailerUrl("");
+      setTrailerUrl(""); 
     } else {
       movieTrailer(movie?.name || movie?.original_name || movie?.title).then(
         (url) => {
-          console.log(url);
-          const urlparams = new URLSearchParams(new URL(url).search);
-          console.log(urlparams);
+          const urlparams = new URLSearchParams(new URL(url).search); //https://www.youtube.com/watch?v=abcd1234
           setTrailerUrl(urlparams.get("v"));
-          console.log(urlparams.get("v"));
         }
       );
     }

@@ -3,45 +3,119 @@
   color: grey;
   display: flex;
   justify-content: center;
+  padding: 20px 10px;
 }
+
 .footer_inner_conatiner {
-  width: 60%;
-  /* background-color: red; */
+  width: 100%;
+  max-width: 1200px;
 }
+
 .footer_icons {
-  /* background-color: red; */
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+  justify-content: start;
+  gap: 20px;
+  margin-bottom: 20px;
   color: #fff;
-  width: 13%;
+  font-size: 24px;
 }
+
 .footer_data {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
 }
-.footer_data ul{
-    list-style: none;
-    display: flex;
+
+.footer_data ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.footer_data ul li {
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.service_code {
+  border: #fff 1px solid;
+  width: fit-content;
+  padding: 6px 16px;
+  margin: 10px 0;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.copy_write {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #aaa;
+}
+.footer_data ul li:hover {
+  text-decoration: underline;
+}
+.footer_icons svg:hover {
+  color: #e50914;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+
+/* Responsive Styles */
+/* @media screen and (max-width: 768px) {
+  .footer_data {
     flex-direction: column;
-    justify-content: space-around;
-    height: 12vh;
-    /* background-color: blue; */
-}
-.footer_data ul li{
-    cursor: pointer;
-}
-.service_code{
-    display: flex;
-    align-items: center;
+    align-items: flex-start;
+  }
+
+  .footer_icons {
     justify-content: center;
-    /* text-align: center; */
-    border: #fff 1px solid;
-    width: 10%;
-    margin: 10px 0;
-    cursor: pointer;
-}
-.copy_write{
-    font-size: 12px;
-    margin-bottom: 10px;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .service_code {
+    margin: 10px auto;
+  }
+
+  .copy_write {
+    text-align: center;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .footer_data {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer_data ul {
+    align-items: center;
+  }
+
+  .footer_icons {
+    justify-content: center;
+    gap: 20px;
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .service_code {
+    margin: 15px auto;
+    padding: 8px 20px;
+    font-size: 0.95rem;
+  }
+
+  .copy_write {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
 }
