@@ -54,4 +54,35 @@
         #111
     );
 }
+@media screen and (max-width: 480px) {
+    .banner{
+        margin-bottom: 1vh;
+    }
+   
+  .banner_title {
+    font-size: 1.5rem;
+  }
 
+  .banner_description {
+    font-size: 0.8rem;
+  }
+
+  .banner_contents {
+    margin-left: 10px;
+  }
+
+  .banner_button {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+    
+  .banner_title {
+    font-size: 2.5rem;
+  }
+
+  .banner_description {
+    font-size: 1.3rem;
+  }
+}
