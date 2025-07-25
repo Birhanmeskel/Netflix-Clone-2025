@@ -1,4 +1,3 @@
-import React from "react";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -16,7 +15,7 @@ function Footer() {
           <div>
             <ul>
               <li>Audio Description</li>
-              <li>Investor Relations</li>
+              <li>Investor Relation</li>
               <li>Legal Notice</li>
             </ul>
           </div>
