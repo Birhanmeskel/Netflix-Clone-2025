@@ -1,7 +1,7 @@
 .banner{
     margin-top: -10vh;
     height: 80vh;
-    margin-bottom: -80px;
+    margin-bottom: 40px;
     color: white;
     object-fit: contain;
 }
@@ -56,7 +56,7 @@
 }
 @media screen and (max-width: 480px) {
     .banner{
-        margin-bottom: 1vh;
+        margin-bottom: 20px;
     }
    
   .banner_title {
