@@ -1,7 +1,6 @@
 {
   "homepage": "https://birhanmeskel.github.io/Netflix-Clone-2025/",
   "name": "netflix-clone",              
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
