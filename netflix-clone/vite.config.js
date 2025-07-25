@@ -3,5 +3,5 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
-  // Remove base path for Netlify deployment
+  base: '/Netflix-Clone-2025/',
 });
